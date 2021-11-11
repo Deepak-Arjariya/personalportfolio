@@ -1,0 +1,14 @@
+h1{
+color: yellow;
+}
+
+h3 {
+  color: red;
+}
+
+p {
+  color: inherit;
+}
+body{
+  background-color: red;
+}
