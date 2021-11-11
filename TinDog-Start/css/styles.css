@@ -1,6 +1,8 @@
 #title{
 background-color: #ff4c68;
 color: #fff;
+/* z-index: -1; */
+/* position: fixed; */
 }
 
 h1{
@@ -62,6 +64,11 @@ p{
 .iphoneimage{
   width:60%;
   transform:rotate(20deg);
+z-index: 0;
+  position: absolute;
+  left:15%;
+  top:0px;
+  /* bottom: 17px; */
 }
 .icon:hover{
   color:#ff4c68;
@@ -77,6 +84,9 @@ p{
 }
 #features{
   padding:7% 0%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
 }
  #testimonials{
 
@@ -108,4 +118,32 @@ p{
 }
 .pricingcolumn{
   padding:3% 2%;
+}
+.container-fluid{
+  padding-bottom: 7%;
+}
+ @media (max-width:1028px){
+
+   .title{
+     text-align: center;
+   }
+   .iphoneimage{
+     position:static;
+     transform: rotate(0);
+   }
+
+ }
+#cta{
+  text-align: center;
+background-color: #ff4c68;
+/* padding-top: 100px;  doesn't matter*/
+padding: 100px 500px 0 500px;
+height:400px;
+}
+#footer{
+  margin-top: 80px;
+  text-align: center;
+}
+.small-icons{
+  margin:20px 10px;
 }
